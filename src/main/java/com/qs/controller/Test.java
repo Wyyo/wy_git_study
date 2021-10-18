@@ -37,5 +37,6 @@ public class Test {
         Calendar cal = Calendar.getInstance();
         cal.setTime(new Date());
         System.out.println(cal.getTime());
+        System.out.println("第一次修改");
     }
 }

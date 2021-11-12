@@ -9,6 +9,9 @@ public class Test2 {
         System.out.println(333);
         System.out.println("444");
         System.out.println("test2");
-
+        String data = "202111101401";
+        String substring = data.substring(0, 8);
+        System.out.println(substring);
+        System.out.println("11");
     }
 }

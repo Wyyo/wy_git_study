@@ -21,6 +21,12 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
+    public List<Product> getList2(int pid) {
+        List<Product> list = mapper.getList2(pid);
+        return list;
+    }
+
+    @Override
     public int insertProduct(Map<String, Object> mapVal) {
         int insertProduct = mapper.insertProduct(mapVal);
         return insertProduct;

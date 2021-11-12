@@ -8,6 +8,7 @@ import java.util.Map;
 
 public interface ProductService {
     List<Product> getList();
+    List<Product> getList2(int pid);
     int insertProduct(Map<String, Object> mapVal);
     List<Product> fenye(Map<String,Object> condition);
 }

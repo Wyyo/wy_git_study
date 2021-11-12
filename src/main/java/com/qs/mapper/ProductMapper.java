@@ -11,6 +11,7 @@ import java.util.Map;
 @Mapper
 public interface ProductMapper {
     List<Product> getList();
+    List<Product> getList2(int pid);
     int insertProduct(Map<String, Object> mapVal);
     List<Product> fenye(Map<String, Object> condition);
 }
